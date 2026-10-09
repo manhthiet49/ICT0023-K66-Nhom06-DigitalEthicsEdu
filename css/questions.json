@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Đạo đức số là gì?",
+    "options": [
+      "Các chuẩn mực ứng xử khi tham gia môi trường số",
+      "Phần mềm bảo mật",
+      "Thiết bị kết nối Internet",
+      "Tên một mạng xã hội"
+    ],
+    "answer": 0,
+    "explanation": "Đạo đức số là các chuẩn mực ứng xử đúng đắn trong môi trường số."
+  },
+  {
+    "id": 2,
+    "question": "Hành động nào giúp bảo vệ tài khoản cá nhân?",
+    "options": [
+      "Đặt mật khẩu 123456",
+      "Chia sẻ mật khẩu cho bạn bè",
+      "Sử dụng mật khẩu mạnh và xác thực hai lớp",
+      "Đăng nhập trên mọi máy tính công cộng"
+    ],
+    "answer": 2,
+    "explanation": "Nên sử dụng mật khẩu mạnh và bật xác thực hai lớp."
+  },
+  {
+    "id": 3,
+    "question": "OTP có nên chia sẻ cho người khác không?",
+    "options": [
+      "Có",
+      "Không",
+      "Chỉ chia sẻ với bạn thân",
+      "Chỉ chia sẻ khi được yêu cầu"
+    ],
+    "answer": 1,
+    "explanation": "OTP là mã xác thực chỉ dành cho chủ tài khoản."
+  },
+  {
+    "id": 4,
+    "question": "Đâu là hành vi vi phạm pháp luật trên Internet?",
+    "options": [
+      "Tôn trọng bản quyền",
+      "Đăng tin giả",
+      "Học trực tuyến",
+      "Tra cứu tài liệu"
+    ],
+    "answer": 1,
+    "explanation": "Đăng tin giả có thể vi phạm pháp luật."
+  },
+  {
+    "id": 5,
+    "question": "Thông tin nào không nên công khai trên mạng?",
+    "options": [
+      "Sở thích",
+      "Địa chỉ nhà và số CCCD",
+      "Môn học yêu thích",
+      "Tên trường"
+    ],
+    "answer": 1,
+    "explanation": "Không nên công khai thông tin cá nhân quan trọng."
+  },
+  {
+    "id": 6,
+    "question": "Bạo lực mạng là gì?",
+    "options": [
+      "Giúp đỡ người khác",
+      "Bắt nạt, xúc phạm trên Internet",
+      "Tra cứu thông tin",
+      "Học trực tuyến"
+    ],
+    "answer": 1,
+    "explanation": "Bạo lực mạng là hành vi xúc phạm, đe dọa hoặc bắt nạt trên Internet."
+  },
+  {
+    "id": 7,
+    "question": "Muốn tải phần mềm nên làm gì?",
+    "options": [
+      "Tải từ mọi trang web",
+      "Tải từ nguồn chính thức",
+      "Nhờ người lạ gửi",
+      "Tải từ quảng cáo"
+    ],
+    "answer": 1,
+    "explanation": "Chỉ nên tải phần mềm từ nguồn đáng tin cậy."
+  },
+  {
+    "id": 8,
+    "question": "Công dân số cần có phẩm chất nào?",
+    "options": [
+      "Thiếu trách nhiệm",
+      "Ứng xử văn minh",
+      "Phát tán tin giả",
+      "Xúc phạm người khác"
+    ],
+    "answer": 1,
+    "explanation": "Công dân số cần ứng xử văn minh và có trách nhiệm."
+  },
+  {
+    "id": 9,
+    "question": "Khi nhận được đường link lạ bạn nên?",
+    "options": [
+      "Bấm ngay",
+      "Chia sẻ cho bạn bè",
+      "Kiểm tra trước khi truy cập",
+      "Đăng lên mạng xã hội"
+    ],
+    "answer": 2,
+    "explanation": "Cần kiểm tra nguồn gốc đường link để tránh lừa đảo."
+  },
+  {
+    "id": 10,
+    "question": "Việc nào sau đây là đúng?",
+    "options": [
+      "Tôn trọng bản quyền",
+      "Sao chép bài của người khác",
+      "Đăng thông tin sai sự thật",
+      "Tiết lộ mật khẩu"
+    ],
+    "answer": 0,
+    "explanation": "Tôn trọng bản quyền là hành vi đúng trong môi trường số."
+  }
+]
