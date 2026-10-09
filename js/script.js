@@ -1,15 +1,4 @@
-// ===============================
-// Website bài giảng Tin học THPT
-// Chủ đề C
-// File: js/script.js
-// ===============================
-
 let questions = [];
-
-// ===============================
-// Load câu hỏi từ JSON
-// ===============================
-
 async function loadQuestions() {
   const container = document.getElementById('quizContainer');
 
@@ -41,11 +30,6 @@ async function loadQuestions() {
     console.log(error);
   }
 }
-
-// ===============================
-// Hiển thị câu hỏi
-// ===============================
-
 function renderQuiz() {
   const container = document.getElementById('quizContainer');
 
@@ -115,17 +99,9 @@ function renderQuiz() {
     container.innerHTML += html;
   });
 }
-
-// ===============================
-// Khởi động
-// ===============================
-
 window.addEventListener('load', function () {
   loadQuestions();
 });
-// ===============================
-// Chấm điểm
-// ===============================
 
 function submitQuiz() {
   let score = 0;
@@ -260,11 +236,6 @@ function submitQuiz() {
     behavior: 'smooth',
   });
 }
-
-// ===============================
-// Nút Nộp bài
-// ===============================
-
 const submitBtn = document.getElementById('submitBtn');
 
 if (submitBtn) {
@@ -274,11 +245,6 @@ if (submitBtn) {
     submitQuiz
   );
 }
-
-// ===============================
-// Nút Làm lại
-// ===============================
-
 const resetBtn = document.getElementById('resetBtn');
 
 if (resetBtn) {
@@ -300,9 +266,6 @@ if (resetBtn) {
     }
   );
 }
-// ===============================
-// Validation Form Liên hệ
-// ===============================
 
 const contactForm = document.getElementById('contactForm');
 
@@ -354,10 +317,6 @@ if (contactForm) {
   });
 }
 
-// ===============================
-// Tìm kiếm Glossary
-// ===============================
-
 const searchQuestion = document.getElementById('searchQuestion');
 
 if (searchQuestion) {
@@ -373,10 +332,6 @@ if (searchQuestion) {
     });
   });
 }
-
-// ===============================
-// Nút Dùng thử
-// ===============================
 
 const demoBtn = document.getElementById('demoBtn');
 
@@ -394,10 +349,6 @@ if (demoBtn) {
   });
 }
 
-// ===============================
-// Đồng hồ
-// ===============================
-
 function updateClock() {
   const clock = document.getElementById('clock');
 
@@ -412,10 +363,6 @@ setInterval(updateClock, 1000);
 
 updateClock();
 
-// ===============================
-// Nút lên đầu trang
-// ===============================
-
 const topBtn = document.getElementById('topBtn');
 
 if (topBtn) {
@@ -427,10 +374,6 @@ if (topBtn) {
     });
   });
 }
-
-// ===============================
-// Hiệu ứng jQuery
-// ===============================
 
 $(document).ready(function () {
   $('.card').hide().fadeIn(700);
@@ -455,7 +398,3 @@ $(document).ready(function () {
     }
   );
 });
-
-// ===============================
-// KẾT THÚC FILE
-// ===============================
